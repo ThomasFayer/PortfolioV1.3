@@ -1,0 +1,332 @@
+:root{
+  --bg-simple:#f8f8f8;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url("../source/test4.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+header nav.navbar div.container{
+  margin-right: 420px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    margin-left: 7px;
+}
+
+
+.Accueil{
+height: 100vh;
+}
+
+.homeTitre{
+  text-align: center;
+  padding-top: 25vh;
+  font-size: 4Em;
+  color:rgb(25, 177, 255);
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+.cv{
+  margin-left: 47vw;
+  margin-top: 170px;
+}
+#Projets{
+  margin-top: 5%;
+}
+.projetBox{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width:70% ;
+  background-color: rgba(95, 24, 186, 0.4);
+  box-shadow:  0px 0px 10px white;
+  border-radius: 5%;
+}
+.projetBox h1{
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Lexend Peta', sans-serif;
+  color: #eee7e7;
+}
+#trait_dessus
+{
+  margin-left: 25%;
+  border-top: 2px solid #f5f1f5;
+  width : 50%;
+}
+.bigTitre{
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Lexend Peta', sans-serif;
+  color: #eee7e7;
+  text-align: center;
+}
+.cardProjet{
+  margin-bottom: 5%;
+}
+.cardProjet img{
+  max-width: 100%;
+  height: auto;
+}
+/*------------------------------------------ A propos----------------------------------------*/
+#about{
+  position: relative;
+  z-index:-100;
+}
+.about_vid{
+  background-image: url("../source/vid_back.gif");
+  background-attachment: fixed;
+  background-size:cover;
+  height: 100vh;
+}
+.presentationBox{
+  background-color: rgba(12, 7, 2 , 0.4);
+  border-radius: 30px;
+  float: left;
+  margin-left:28vw ;
+  margin-top:35vh;
+  width: 45vw;
+  z-index: 10;
+  box-shadow:  0px 0px 10px white;
+}
+.imgProfil{
+  width: 65%;
+  height: auto;
+  border-radius: 15px;
+}
+.txt-profil h1{
+  color: #5F00BA;
+}
+.txt-profil p{
+  color: #F9FCF7;
+}
+@media screen {
+  
+}
+.txt-profil{
+
+}
+/*------------------------------------ parcours Css ----------------------------------------*/
+
+.timeline{
+  margin-top:20px;
+  position:relative;
+
+}
+
+.timeline:before{
+  position:absolute;
+  content:'';
+  width:4px;
+  height:calc(100% + 50px);
+  background: rgb(138,145,150);
+  background: -moz-linear-gradient(left, rgba(138,145,150,1) 0%, rgba(122,130,136,1) 60%, rgba(98,105,109,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
+  background: linear-gradient(to right, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#62696d',GradientType=1 );
+  left:14px;
+  top:5px;
+  border-radius:4px;
+}
+
+.timeline-month{
+  position:relative;
+  padding:4px 15px 4px 35px;
+  background-color:#444950;
+  display:inline-block;
+  width:auto;
+  border-radius:40px;
+  border:1px solid #17191B;
+  border-right-color:black;
+  margin-bottom:30px;
+}
+
+.timeline-month span{
+  position:absolute;
+  top:-1px;
+  left:calc(100% - 10px);
+  z-index:-1;
+  white-space:nowrap;
+  display:inline-block;
+  background-color:#111;
+  padding:4px 10px 4px 20px;
+  border-top-right-radius:40px;
+  border-bottom-right-radius:40px;
+  border:1px solid black;
+  box-sizing:border-box;
+}
+
+.timeline-month:before{
+  position:absolute;
+  content:'';
+  width:20px;
+  height:20px;
+  background: rgb(138,145,150);
+  background: -moz-linear-gradient(top, rgba(138,145,150,1) 0%, rgba(122,130,136,1) 60%, rgba(112,120,125,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(112,120,125,1) 100%);
+  background: linear-gradient(to bottom, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(112,120,125,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#70787d',GradientType=0 );
+  border-radius:100%;
+  border:1px solid #17191B;
+  left:5px;
+}
+
+.timeline-section{
+  padding-left:35px;
+  display:block;
+  position:relative;
+  margin-bottom:30px;
+}
+
+.timeline-date{
+  margin-bottom:15px;
+  padding:2px 15px;
+  background:linear-gradient(#19B1FF 60%, #E4E0DE);
+  position:relative;
+  display:inline-block;
+  border-radius:20px;
+  border:1px solid #17191B;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.3);
+}
+.timeline-section:before{
+  content:'';
+  position:absolute;
+  width:30px;
+  height:1px;
+  background-color:#444950;
+  top:12px;
+  left:20px;
+}
+
+.timeline-section:after{
+  content:'';
+  position:absolute;
+  width:10px;
+  height:10px;
+  background:linear-gradient(to bottom, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(112,120,125,1) 100%);
+  top:7px;
+  left:11px;
+  border:1px solid #17191B;
+  border-radius:100%;
+}
+
+.timeline-section .col-sm-4{
+  margin-bottom:15px;
+}
+
+.timeline-box{
+  position:relative;
+
+  background-color: #5e36ca;
+  border-radius:15px;
+  border-top-left-radius:0px;
+  border-bottom-right-radius:0px;
+  border:1px solid #17191B;
+  transition:all 0.3s ease;
+  overflow:hidden;
+}
+
+.box-icon{
+  position:absolute;
+  right:5px;
+  top:0px;
+}
+
+.box-title{
+  padding:5px 15px;
+  border-bottom: 1px solid #17191B;
+}
+
+.box-title i{
+  margin-right:5px;
+}
+
+.box-content{
+  padding:5px 15px;
+  background-color: #050505;
+}
+
+.box-content strong{
+  color: #f3ebe8;
+  font-style:italic;
+  margin-right:5px;
+}
+
+.box-item{
+  margin-bottom:5px;
+}
+/* ---------------------------------contact part-------------------------------------*/
+
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+
+
+#contact {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  margin: 4em auto;
+  width: 24%;
+  height: 15%;
+  line-height: 150px;
+  background: #19b1ff;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+#contact:hover { background: #666; }
+#contact:active { background: #444; }
+
+#contactForm {
+  display: none;
+
+  border: 6px solid #5f00ba;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #f9fcf7;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+
+}
+
+input, textarea {
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn {
+  width: 140px;
+  display: inline-block;
+
+  background: #111010;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
+
+
