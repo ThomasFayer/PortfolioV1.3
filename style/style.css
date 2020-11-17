@@ -1,6 +1,6 @@
 :root{
   --bg-simple:#f8f8f8;
-
+  font-size: 16px;
 }
 
 html{
@@ -40,6 +40,7 @@ height: 100vh;
 }
 #Projets{
   margin-top: 5%;
+  padding-top: 5rem;
 }
 .projetBox{
   margin-top: 10%;
@@ -48,6 +49,7 @@ height: 100vh;
   background-color: rgba(95, 24, 186, 0.4);
   box-shadow:  0px 0px 10px white;
   border-radius: 5%;
+
 }
 .projetBox h1{
   text-align: center;
@@ -63,6 +65,7 @@ height: 100vh;
 }
 .bigTitre{
   text-align: center;
+  padding-top: 5vh;
   margin-bottom: 2%;
   font-family: 'Lexend Peta', sans-serif;
   color: #eee7e7;
@@ -79,9 +82,10 @@ height: 100vh;
 #about{
   position: relative;
   z-index:-100;
+  padding-top: 5rem;
 }
 .about_vid{
-  background-image: url("../source/vid_back.gif");
+  background-image: url("../source/h3.gif");
   background-attachment: fixed;
   background-size:cover;
   height: 100vh;
@@ -91,7 +95,7 @@ height: 100vh;
   border-radius: 30px;
   float: left;
   margin-left:28vw ;
-  margin-top:35vh;
+  margin-top:15vh;
   width: 45vw;
   z-index: 10;
   box-shadow:  0px 0px 10px white;
@@ -103,9 +107,11 @@ height: 100vh;
 }
 .txt-profil h1{
   color: #5F00BA;
+  font-size: 100%;
 }
 .txt-profil p{
   color: #F9FCF7;
+  font-size: 100%;
 }
 @media screen {
   
@@ -269,34 +275,38 @@ height: 100vh;
 * { box-sizing: border-box; }
 
 
-#contact {
+.contact {
   -webkit-user-select: none; /* Chrome/Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+ */
-  margin: 4em auto;
-  width: 24%;
-  height: 15%;
-  line-height: 150px;
+  padding: .4rem .8rem;
+  width: max-content;
   background: #19b1ff;
   color: white;
-  font-size: 50px;
+  font-size: 1rem;
   text-align: center;
   cursor: pointer;
   border: 1px solid white;
-  border-radius: 12px;
+  border-radius: 90px;
+
 }
 
-#contact:hover { background: #666; }
-#contact:active { background: #444; }
+#contact{
+  justify-content:center;
+  align-items: center;
+  display: flex;
+}
+.contact:hover { background: #666; }
+.contact:active { background: #444; }
 
 #contactForm {
   display: none;
-
-  border: 6px solid #5f00ba;
+  box-shadow:  0px 0px 30px rgb(95,0,186);
+  border-radius: 5px;
   padding: 2em;
   width: 400px;
   text-align: center;
-  background: #f9fcf7;
+  background: rgba(210,215,210,0.9);
   position: fixed;
   top:50%;
   left:50%;
@@ -326,7 +336,17 @@ textarea { height: 80px; resize: none; }
   font-weight: 100;
   font-size: 1.2em;
   border: none;
-  height: 30px;
+}
+
+/* page projet */
+.titre-projet{
+  color: #19b1ff;
+}
+.txt-projet{
+  background-color: #19b1ff;
+}
+.img-projet{
+  background-color: limegreen;
 }
 
 
