@@ -21,10 +21,11 @@
         <script src="jsPart/vue.js"></script>
         <script type="text/javascript" src="source/js/main.js"></script>
         <script type="text/javascript" src="jsPart/contact.js"></script>
+        <script type="text/javascript" src="jsPart/navbar.js"></script>
 
 
         <!-- My kit's code -->
-
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.0/css/bootstrap.min.css"/>
         <script src="https://kit.fontawesome.com/f8cbe6ea3d.js"></script>
